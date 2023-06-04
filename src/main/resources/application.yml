@@ -1,0 +1,16 @@
+server:
+  port: ${SERVER_PORT:8080}
+  
+ 
+logging:
+  level:
+    org:
+      springframework:
+        secutiry: TRACE
+    br: 
+      com:
+        exemplo:
+          logincustomizado: 
+            infrastructure: 
+              rest: 
+                 AuthController: TRACE
